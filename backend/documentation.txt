@@ -1,0 +1,15 @@
+documentation
+url:localhost:5000/api/auth/signup
+method post
+set headers : content-type application/json
+body or payload json object();
+
+in postman select body or select row select json
+
+
+//?to validate emial address use regular expression
+/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+
+
+
+//?hashed the password using bcrypt module 
